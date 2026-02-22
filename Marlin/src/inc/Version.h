@@ -33,7 +33,7 @@
  * vendor name, download location, GitHub account, etc.
  */
 #ifndef DETAILED_BUILD_VERSION
-  #define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION " (GitHub)"
+  #define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION " Forked from 2.0.1"
 #endif
 
 /**
@@ -112,7 +112,7 @@
 #endif
 //! USB Device string definitions (Optional)
 #ifndef USB_DEVICE_MANUFACTURE_NAME
-  #define  USB_DEVICE_MANUFACTURE_NAME    WEBSITE_URL
+  #define  USB_DEVICE_MANUFACTURE_NAME    "https://github.com/Homers3D/Tevo-Nereus"
 #endif
 #ifdef CUSTOM_MACHINE_NAME
   #define  USB_DEVICE_PRODUCT_NAME        CUSTOM_MACHINE_NAME

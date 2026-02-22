@@ -23,7 +23,7 @@
 #pragma once
 
 #ifndef CLCD_USE_SOFT_SPI
-  #include <SPI.h>
+  #include "SPI.h"
 #endif
 
 namespace FTDI {

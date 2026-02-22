@@ -49,7 +49,7 @@
 #ifdef TARGET_LPC1768
 
 #include "../../inc/MarlinConfig.h"
-#include <SPI.h>
+#include "SPI.h"
 
 // ------------------------
 // Public functions

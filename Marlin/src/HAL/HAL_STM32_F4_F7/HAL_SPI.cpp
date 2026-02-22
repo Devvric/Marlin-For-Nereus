@@ -34,7 +34,7 @@
 
 #include "../../inc/MarlinConfig.h"
 
-#include <SPI.h>
+#include "SPI.h"
 #include <pins_arduino.h>
 #include "../shared/HAL_SPI.h"
 #include "spi_pins.h"

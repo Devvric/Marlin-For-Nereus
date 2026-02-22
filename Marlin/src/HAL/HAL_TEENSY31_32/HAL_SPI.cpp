@@ -22,7 +22,7 @@
 #ifdef __MK20DX256__
 
 #include "HAL.h"
-#include <SPI.h>
+#include "SPI.h"
 #include <pins_arduino.h>
 #include "spi_pins.h"
 #include "../../core/macros.h"

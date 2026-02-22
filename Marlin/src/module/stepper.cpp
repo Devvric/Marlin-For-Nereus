@@ -106,7 +106,7 @@ Stepper stepper; // Singleton
 #endif
 
 #if HAS_DIGIPOTSS
-  #include <SPI.h>
+  #include "SPI.h"
 #endif
 
 #if ENABLED(MIXING_EXTRUDER)

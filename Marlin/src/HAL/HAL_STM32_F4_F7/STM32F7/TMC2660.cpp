@@ -32,7 +32,7 @@
 #if HAS_DRIVER(TMC2660)
 
 #include <stdbool.h>
-#include <SPI.h>
+#include "SPI.h"
 #include "TMC2660.h"
 
 #include "../../../inc/MarlinConfig.h"
